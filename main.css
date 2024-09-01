@@ -46,16 +46,13 @@ main p span {
     height: 280px;
     background-color: var(--gray-300);
     border-radius: 8px;
+    text-align: start;
 
 }
 
 .imagetag p {
     margin-inline: 12px;
     margin-top: 20px;
-}
-
-.imagetag {
-    text-align: start;
 }
 
 
