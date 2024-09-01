@@ -1,0 +1,60 @@
+.projetos {
+    background-color: var(--gray-200);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.projetos main {
+    text-align: center;
+    padding-inline: 163px;
+}
+
+main :nth-child(2) {
+    margin-block: 8px 56px;
+    color: var(--gray-600);
+
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    align-items: baseline;
+}
+
+.imagetag img {
+    width: 306px;
+    max-width: 100%;
+    box-sizing: border-box; 
+    border-radius: 8px;
+    margin: 12px 12px 0px 12px;
+}
+
+main p span {
+    color: var(--red);
+    font-family: var(--font-family2);
+}
+
+.imagetag {
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray-300);
+    border-radius: 8px;
+    text-align: left;
+
+}
+
+.imagetag p {
+    margin-inline: 12px;
+    margin-top: 20px;
+}
+
+.imagetag {
+    text-align: start;
+}
+
+.imagetag p {
+    margin-top: 10px;
+}

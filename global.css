@@ -4,7 +4,6 @@
 }
 
 :root {
-    /* zoom: 70%; */
     box-sizing: border-box;
     
 
@@ -22,22 +21,22 @@
     --gray-500: #C0C4CE;
     --gray-600: #E2E4E9;
 
+    --font-family2: "Inconsolata", monospace;
+    --font-family3: "Maven Pro", sans-serif;
+
+    --title-lg: 600 56px/120% bold;
+    --title-md: 800 24px/120%;
+    --title-sm: 800 16px/120%;
 }
 
 body {
     font-family: "Asap", sans-serif;
-    max-width: 1368px;
+    width: 100%;
     
 }
 
-.header-content h1{
-    color: var(--gray-600);
-    
+h1 {
+    font: var(--title-lg);
+    font-family: var(--font-family);
 }
 
-.header-content p {
-    color: var(--gray-400);
-}
-.header-content p span {
-    color: red;
-}

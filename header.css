@@ -7,7 +7,6 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .header-content {
@@ -45,4 +44,23 @@ header {
 header div img + img {
     margin-top: 119px;
 }
+
+.header-content p span {
+    color: var(--red);
+}
+
+.header-content h1{
+    color: var(--gray-600);
+    
+}
+
+.header-content p {
+    color: var(--gray-400);
+}
+
+
+.header-content img + p {
+    font-family: var(--font-family2);
+}
+
 
