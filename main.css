@@ -3,11 +3,14 @@
     width: 100%;
     height: 100%;
     box-sizing: border-box;
+
 }
 
 .projetos main {
     text-align: center;
     padding-inline: 163px;
+    justify-content: cover;
+
 }
 
 main :nth-child(2) {
@@ -19,15 +22,15 @@ main :nth-child(2) {
 .image {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 24px;
     align-items: baseline;
+    max-width: 1040px;
+    margin-inline: auto;
 }
 
 .imagetag img {
     width: 306px;
     max-width: 100%;
-    box-sizing: border-box; 
     border-radius: 8px;
     margin: 12px 12px 0px 12px;
 }
@@ -42,7 +45,6 @@ main p span {
     height: 280px;
     background-color: var(--gray-300);
     border-radius: 8px;
-    text-align: left;
 
 }
 
@@ -55,6 +57,5 @@ main p span {
     text-align: start;
 }
 
-.imagetag p {
-    margin-top: 10px;
-}
+
+
