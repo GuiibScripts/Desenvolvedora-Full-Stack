@@ -15,6 +15,7 @@
 
 .container-servicos h3 {
     color: var(--red);
+    font-weight: 1;
 }
 
 .container-servicos p span {
