@@ -63,7 +63,7 @@ Para visualizar o portfólio em sua máquina local:
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/guiibest/pratico-desenvolvedora-fullstack.git
+    git clone https://guiibscripts.github.io/Desenvolvedora-Full-Stack/
     ```
 2. Navegue até o diretório do projeto:
     ```bash
